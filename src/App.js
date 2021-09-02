@@ -1,11 +1,12 @@
-import './App.css';
-import Chat from './component/chat';
-import SharedFlies from './component/sharedfiles'
+import Chat from "component/chat/index";
+import SharedFiles from "component/sharedfiles/index";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
       <Chat />
-      <SharedFlies></SharedFlies>
+      <SharedFiles />
     </div>
   );
 }
